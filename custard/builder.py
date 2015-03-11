@@ -178,7 +178,7 @@ class CustomFieldsBuilder(object):
             content_object = generic.GenericForeignKey('content_type', 'object_id')
 
             value_text = models.TextField(blank=True, null=True)
-            value_integer = models.IntegerField(blank=True, null=True)
+            value_int = models.IntegerField(blank=True, null=True)
             value_float = models.FloatField(blank=True, null=True)
             value_time = models.TimeField(blank=True, null=True)
             value_date = models.DateField(blank=True, null=True)
